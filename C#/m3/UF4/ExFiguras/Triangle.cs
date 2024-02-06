@@ -3,9 +3,15 @@
 
 namespace ExFiguras
 {
-    public class Triangle
+    public class Triangle : Figures
     {
-        public float Base { get; set; }
-        public float Height { get; set; }
+        public Triangle(float x, float y) : base(x, y)
+        {
+            
+
+        }
+
+
+
     }
 }
