@@ -47,12 +47,6 @@ namespace Activitats
             Name = name;
             Material = material;
             Colour = colour;
-            Weight = weight;
-            Price = price;
-            Set = set;
-            Name = name;
-            Material = material;
-            Colour = colour;
         }
     }
 }

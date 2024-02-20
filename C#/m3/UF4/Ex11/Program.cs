@@ -4,5 +4,10 @@
 
  
  
- 
+Com que normalment les interficies són per heretar compartaments (mètodes) a diferents clases que no tenen perque
+tenir relacions entre elles, y les abstractes si que pretenen proporcionar una estructura comuna i compartida per a
+diverses classes relacionades. La meva conclusió es que, és més eficient utilitzar una clase abstracta per heretar els
+atributs y utilitzar només els que requereixi la subclase, en el cas de que totes les aquestes subclases estinguin
+relacionats d'alguna manera lògica, i si són subclases totalment diferents, que no tenen res a veure, llavors diria que
+utilitzar una interfície es millor.
  */
