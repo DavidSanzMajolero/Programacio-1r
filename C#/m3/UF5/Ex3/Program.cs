@@ -14,12 +14,12 @@ namespace Activitats
             int year = Convert.ToInt32(Console.ReadLine());
             DateTime dateUser = new DateTime(year, month, day);
             //Console.WriteLine(dateUser);
-
-            DateTime dateNow = new DateTime(2024, 3, 5);
+            s
+            DateTime dateNow = DateTime.Now;
             //Console.WriteLine(dateNow);
 
             TimeSpan difference = dateNow - dateUser;
-            Console.WriteLine($"The difference in days is: {difference}");
+            Console.WriteLine($"The difference in days is: {difference.Days}");
 
         }
     }
