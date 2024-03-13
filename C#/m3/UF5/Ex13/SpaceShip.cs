@@ -12,10 +12,22 @@ namespace Ex13
         public NavegationSystem NavegationSystem { get; set; }
         public Rocket Rocket { get; set; }
         public Crew Crew { get; set; }
+        public SpaceShip (BoardComputer boardComputer, NavegationSystem navegationSystem, Rocket rocket, Crew crew)
+        {
+            BoardComputer = boardComputer;
+            NavegationSystem = navegationSystem;
+            Rocket = rocket;
+            Crew = crew;
+        }
+
+        public override string ToString()
+        {
+            return "Piloted by " + this.Crew;
+        }
 
         public void Pilot()
         {
-            Console.WriteLine("Piloted by " + Crew.Name);
+            Console.WriteLine("ASd");
         }
     }
 }
