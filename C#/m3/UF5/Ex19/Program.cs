@@ -12,6 +12,7 @@ namespace Activitats
 
             Console.WriteLine(power(x,y));
 
+
         }
     }
 }
